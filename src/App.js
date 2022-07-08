@@ -18,11 +18,12 @@ function App() {
       <div className="App" >
         <Nav></Nav>
       <Routes>
-  <Route path="/" element={<About/>} exact/>
+  <Route path="/satwinder-portfolio" element={<About/>}>
   <Route path="/about" element={<About/>}/>
   <Route path="/portfolio" element={<Project/>}/>
   <Route path="/contact" element={<Contact/>}/>
   <Route path="/resume" element={<Resume/>}/>
+  </Route>
     </Routes>
     <Footer/>
     </div>
