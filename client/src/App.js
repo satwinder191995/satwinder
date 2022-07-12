@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Project from './components/Project';
 import Certifications from './components/Certifications';
 import Footer from './components/Footer';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   // const [aboutSelected, setAboutSelected] = useState(true);
   // const [resumeSelected, setResumeSelected] = useState(false);
@@ -18,7 +18,7 @@ function App() {
       <div className="App" >
         <Nav></Nav>
       <Routes>
-  <Route path="/" element={<About/>}/>
+  <Route path="/" element={<About/>} exact/>
   <Route path="/about" element={<About/>}/>
   <Route path="/portfolio" element={<Project/>}/>
   <Route path="/contact" element={<Contact/>}/>
