@@ -1,0 +1,189 @@
+main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
+}
+:root {
+  --primary: #8c54ff;
+  --secondary: #f3a847;
+  --tertiary: #b12704;
+  --light: #fafafa;
+  --dark: #000000;
+  --darker: #111111;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  /* background: var(--dark); */
+  background:black;
+  color: var(--light);
+  font-family: 'Poiret One', cursive;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  /* background-color: var(--secondary); */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: 0.8;
+}
+
+input {
+  width:320px;
+  color:black;
+  font-size:21px;
+  font-weight:900;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+
+textarea {
+  font-size:23px;
+  font-weight:900;
+  width:460px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+}
+
+
+button {
+  background: var(--primary);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+#myName{
+  margin-left:160px;
+  font-size:70px;
+  font-family: Poiret One;
+}
+#logo{
+  top:-12px;
+  width:150px;
+   height:150px;
+}
+#navList{
+  font-size: 30px;
+}
+#about{
+  margin:30px 10px 20px 140px;
+  font-size: 25px;
+  }
+
+#projects{
+  padding-left:150px;
+  }
+#resume{
+  margin-left:150px;
+}
+#contact{
+  width:100%;
+  margin:30px 10px 20px 140px;
+}
+/* image effects goes here */
+#awsImg{
+  height:260px;
+  width:260px;
+}
+#azureImg{
+  height:260px;
+  width:260px;
+}
+@media only screen and (max-width: 1150px) {
+  #myName {
+  font-size:50px;
+  margin-top: 10px;
+  }
+  #navList{
+    font-size:23px;
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 576px) {
+
+  #myName {
+  font-size:50px;
+  margin-left:140px;
+  }
+#logo{
+    top:5px;
+    width:120px;
+     height:120px;
+     left:5px;
+  }
+  #navList{
+    font-size: 20px;
+  }
+  #about{
+  margin:0px;
+  font-size:18px;
+  }
+  #projects{
+    padding-left:12px;
+    }
+    
+    #resume{
+      margin:20px;
+    }
+    #contact{
+      width:60%;
+      margin:30px 10px 20px 20px;
+    }
+    #awsImg{
+      height:160px;
+      width:160px;
+    }
+    #azureImg{
+      height:160px;
+      width:160px;
+    }
+    textarea{
+      width:320px;
+    }
+}
