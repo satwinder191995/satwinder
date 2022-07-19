@@ -19,7 +19,7 @@ function Footer() {
         <FontAwesomeIcon icon={faCodeCompare} 
         style={{color:"white",width:"40px",fontSize:"25px"}}/>
         Git-hub</a></li>
-        <li><a href="https://linkedin.com/?lang=en" className="text-white text-decoration-none">
+        <li><a href="https://www.linkedin.com/in/satwinder-singh-53a83022b" className="text-white text-decoration-none">
         <FontAwesomeIcon icon={faUser} 
         style={{color:"white",width:"40px",fontSize:"25px"}}/>
         Linkedin</a></li>
