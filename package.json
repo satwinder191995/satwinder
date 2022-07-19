@@ -22,5 +22,8 @@
   "homepage": "https://github.com/satwinder191995/satwinder-portfolio#readme",
   "dependencies": {
     "concurrently": "^7.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

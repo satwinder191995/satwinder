@@ -13,7 +13,7 @@ function About() {
       Hi, and welcome, I’m Satwinder Singh.
       </p>
       <p className='mx-md-3'>
-      I am highly skilled full stack developer with exceptional cloud architecting ability, has extensive knowledge of networking and building serverless architecture solutions within AWS and Azure cloud platforms. Future goals to advance my knowledge in full stack development
+      Full Stack web developer with exceptional knowledge in front-end and back-end proficiencies. Recently earned certifications in full stack web development from University of Toronto and cloud certifications in AWS and Azure. Passionate about developing unique apps, with a focus on mobile-first and user-friendly design. I can collaborate and work with a team while solving problems in high-stress environments. Looking forward to contribute my values and technical skills to a company to grow and become a valuable asset.
       </p>  
     </section>
     <Certifications/>
