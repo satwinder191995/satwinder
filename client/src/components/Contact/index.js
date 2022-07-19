@@ -10,9 +10,11 @@ function ContactForm() {
  console.log("name"+name);
  
   const handleSubmit = (e) => {
+    
     e.preventDefault();
     if (!errorMessage) {
       console.log('Submit Form', formState);
+      window.alert("Email copy sent to your accout.Thanks...")
       fetch('api/contact'
       , {
         method: 'post',
@@ -23,7 +25,6 @@ function ContactForm() {
       })
       .then(response => response.json())
       .then(data=>{
-        alert("Email copy sent to your accout.Thanks...")
         console.log(data);
       })
     }
