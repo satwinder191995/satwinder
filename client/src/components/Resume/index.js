@@ -4,7 +4,7 @@ function Resume(props) {
   return (
     <section id="resume">
        <h1>Resume</h1> 
-        <h2 className='mx-4' style={{fontSize:"22px"}}>Download my <a href="./resume.txt" style={{fontSize:"20px"}} download>Resume</a></h2>
+        <h2 className='mx-4' style={{fontSize:"22px"}}>Download my <a href="./satwinderResume.pdf" style={{fontSize:"20px"}} download>Resume</a></h2>
         <h3>Front-end Proficiencies</h3>
         <ul className='mx-4'>
           <li>HTMl</li>
