@@ -6,8 +6,8 @@ function Project(props) {
   {
   title:'Book Around',
   type:'Full Stack',
-  liveUrl:'https://floating-reef-77198.herokuapp.com/',
-  gitUrl:'https://github.com/TheBookStore05/bookaround.git',
+  liveUrl:'https://glacial-headland-92988.herokuapp.com/',
+  gitUrl:'https://github.com/satwinder191995/booksale.git',
   img:'bookaround',
   },
   {
