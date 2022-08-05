@@ -98,10 +98,10 @@ function Project(props) {
           <div className="d-flex p-3"><h2 id='projectTitle'><a className='text-decoration-none text-white' href={app.liveUrl}>{app.title}</a></h2></div>
           <div id="buttons" className='px-3'>
           <a className='text-decoration-none text-white' href={app.liveUrl}>
-          <button className='m-2' style={{width:"120px",fontSize:"20px"}}>Demo</button>
+          <button className='m-2 btn btn-danger' style={{width:"120px",fontSize:"20px"}}>Demo</button>
           </a>
           <a className='text-decoration-none text-white' href={app.gitUrl}>
-          <button style={{width:"150px",fontSize:"20px"}}>Source Code</button>
+          <button className='m-2 btn btn-danger' style={{width:"150px",fontSize:"20px"}}>Source Code</button>
           </a>
           </div>
         </div>
