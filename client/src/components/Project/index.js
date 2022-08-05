@@ -4,6 +4,13 @@ import './project.css';
 function Project(props) {
  const apps = [
   {
+    title:'Smart Shop',
+    type:'Full Stack',
+    liveUrl:'https://lit-savannah-41865.herokuapp.com/',
+    gitUrl:'https://github.com/satwinder191995/smart.git',
+    img:'smartShop',
+  },
+  {
   title:'Book Around',
   type:'Full Stack',
   liveUrl:'https://glacial-headland-92988.herokuapp.com/',
